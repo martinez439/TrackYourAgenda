@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ebf0ff;
+}
+
+h1 {
+  color: #0c0c1a;
+  font-weight: 900;
+}
+
+h4 {
+  color: #446beb;
+  font-weight: 900;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+.section {
+  align-items: center;
+}
+.btn {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: #446beb;
+  padding: 12px 22px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+}
+.btn2 {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: #c2d2f9;
+  padding: 12px 22px;
+  border-radius: 6px;
+  color: #446beb;
+  font-weight: 500;
+}
+.newTodo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+li {
+  justify-content: center;
+}
+
+label {
+  padding: 10px;
+}
+
+.deleteButton {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  border-radius: 10%;
+  margin-left: 5px;
+}

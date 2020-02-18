@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      My Todo List
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="section has-text-centered">
+        <h1 class="is-size-1 is-family-sans-serif has-text-weight-bold">
+          Todo List
+        </h1>
+        <h4 class="is-size-4 is-family-sans-serif has-text-weight-medium">
+          <i class="fas fa-quote-left"></i> What's on your agenda?
+          <i class="fas fa-quote-right"></i>
+        </h4>
+      </div>
+
+      <div class="box">
+        <div class="field has-addons">
+          <div class="control has-icons-left">
+            <input
+              class="input is-medium"
+              type="text"
+              id="addTodoTextInput"
+              placeholder="New todo"
+            />
+            <span class="icon is-medium is-left">
+              <i class="fas fa-pencil-alt"></i>
+            </span>
+          </div>
+          <div class="control">
+            <a onclick="handlers.addTodo()" class="button is-medium is-link">
+              <i class="fas fa-plus"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- <div>
+          <button class="btn2" onclick="handlers.changeTodo()">
+            Change Todo
+          </button>
+          <input id="changeTodoPositionInput" type="number" />
+          <input id="changeTodoTextInput" type="text" />
+        </div>
+        <br />
+
+        <div>
+          <button onclick="handlers.toggleAll()">Toggle All</button>
+        </div>
+
+        <div>
+          <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+          <input id="toggleCompletedPositionInput" type="number" />
+        </div> -->
+        <div class=" has-text-centered">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
